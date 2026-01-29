@@ -1,0 +1,5 @@
+file = open("movies.txt","w")
+file.write("persuit of happiness\n")
+file.write("inception\n")
+file.write("kgf\n")
+file.close()

@@ -1,0 +1,30 @@
+# file = open("string.txt","w")
+# file.write("My name is Priyam Tiwari")
+# file.close()
+
+# file = open("string.txt","r")
+# data = file.read()
+# print(data)
+# file.close()
+
+# file = open("string.txt","r")
+# data = file.read()
+# print("characters in the file", len(data))
+# file.close()
+
+# file = open("string.txt","r")
+# data = file.read()
+# words=data.split()
+# print("Total word in a file are: ",len(words))
+# file.close()
+
+file = open("string.txt","r")
+data = file.read()
+count = data.lower().count("priyam")
+print("word count: ",count)
+file.close()
+
+file = open("string.txt","r")
+data = file.read()
+replace=data.replace("Priyam","sikhar")
+print(replace)

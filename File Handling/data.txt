@@ -1,0 +1,3 @@
+Name: Priyam Tiwari
+city: Lucknow 
+age: 20
